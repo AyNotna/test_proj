@@ -4,7 +4,7 @@ import Modal from "./components/Modal";
 import Pagination from "./components/Pagination";
 import "./App.css";
 
-const API_URL = "http://localhost:8000/api/queries";
+const API_URL = "https://test-proj-v2ze.onrender.com/api/queries";
 
 function App() {
   const [data, setData] = useState([]);
